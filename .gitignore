@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
