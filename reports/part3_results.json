@@ -14,15 +14,15 @@
     }
   },
   "transformer": {
-    "test_accuracy": 1.0,
-    "test_macro_f1": 1.0,
+    "test_accuracy": 0.9904761904761905,
+    "test_macro_f1": 0.9904707884288145,
     "confusion_matrix": [
       [
-        21,
+        20,
         0,
         0,
         0,
-        0
+        1
       ],
       [
         0,
@@ -53,11 +53,11 @@
         21
       ]
     ],
-    "mean_epoch_time_sec": 24.452879499999955
+    "mean_epoch_time_sec": 7.3799607500011914
   },
   "bilstm_baseline": {
-    "test_accuracy": 0.9904761904761905,
-    "test_macro_f1": 0.9904707884288145,
-    "mean_epoch_time_sec": 21.14615586666696
+    "test_accuracy": 0.9714285714285714,
+    "test_macro_f1": 0.9716291838243057,
+    "mean_epoch_time_sec": 3.498244204999719
   }
 }

@@ -1,7 +1,14 @@
 \documentclass[12pt]{article}
 \usepackage[a4paper,margin=1in]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\else
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
+\fi
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{graphicx}
@@ -12,6 +19,12 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 
+\newcommand{\safeincludegraphics}[2][]{%
+    \IfFileExists{#2}{\includegraphics[#1]{#2}}{%
+        \fbox{\parbox[c][0.18\textheight][c]{0.45\linewidth}{\centering Missing figure}}%
+    }%
+}
+
 \title{CS-4063 Natural Language Processing\\Assignment 2 Report}
 \author{i23-2538}
 \date{April 2026}
@@ -19,7 +32,7 @@
 \begin{document}
 \maketitle
 
-\noindent\textbf{GitHub URL:} \url{https://github.com/Yurnero/i23-2538-NLP-Assignment}
+\noindent\textbf{GitHub URL:} \url{https://github.com/Hirotaka-Akihiro/i23-2538-NLP-Assignment}
 
 \section*{Overview}
 This report presents a complete neural NLP pipeline implemented from scratch in PyTorch for BBC Urdu-style text processing.
@@ -38,7 +51,7 @@ The t-SNE projection for the 200 most frequent tokens is shown in Figure~\ref{fi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{reports/part1_ppmi_tsne.png}
+    \includegraphics[width=0.9\linewidth]{Images to add/part1_ppmi_tsne.png}
     \caption{t-SNE visualization of top-200 token PPMI vectors.}
     \label{fig:tsne}
 \end{figure}
@@ -47,7 +60,7 @@ The Skip-gram model (two embedding matrices, negative sampling, BCE objective) c
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.72\linewidth]{reports/part1_skipgram_loss.png}
+    \includegraphics[width=0.72\linewidth]{Images to add/part1_skipgram_loss.png}
     \caption{Skip-gram training loss across epochs.}
     \label{fig:w2v_loss}
 \end{figure}
@@ -79,8 +92,8 @@ Training curves for POS and NER are shown in Figure~\ref{fig:part2_curves}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.48\linewidth]{reports/part2_pos_finetuned_curve.png}
-    \includegraphics[width=0.48\linewidth]{reports/part2_ner_crf_curve.png}
+    \includegraphics[width=0.48\linewidth]{Images to add/part2_pos_finetuned_curve.png}
+    \includegraphics[width=0.48\linewidth]{Images to add/part2_ner_crf_curve.png}
     \caption{Representative training/validation curves for POS (fine-tuned) and NER (CRF).}
     \label{fig:part2_curves}
 \end{figure}
@@ -92,15 +105,15 @@ Training curves for POS and NER are shown in Figure~\ref{fig:part2_curves}.
 \toprule
 Mode & Accuracy & Macro-F1 \\
 \midrule
-Frozen embeddings & 0.6031 & 0.0793 \\
-Fine-tuned embeddings & 0.8653 & 0.3472 \\
+Frozen embeddings & 0.6013 & 0.0848 \\
+Fine-tuned embeddings & 0.9327 & 0.5207 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.65\linewidth]{reports/part2_pos_confusion_matrix.png}
+    \includegraphics[width=0.65\linewidth]{Images to add/part2_pos_confusion_matrix.png}
     \caption{POS confusion matrix on the test set.}
 \end{figure}
 
@@ -148,18 +161,18 @@ Training and validation curves are shown in Figure~\ref{fig:part3_curves}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{reports/part3_transformer_curves.png}
+    \includegraphics[width=0.9\linewidth]{Images to add/part3_transformer_curves.png}
     \caption{Transformer training and validation loss/accuracy curves.}
     \label{fig:part3_curves}
 \end{figure}
 
-Test-set classification performance was:
-Transformer accuracy = 1.0000, macro-F1 = 1.0000.
+Test-set classification performance in a leakage-checked rerun (seed $=101$, max length $=24$, epochs $=20$) was:
+Transformer accuracy = 0.9905, macro-F1 = 0.9905.
 The $5\times5$ confusion matrix is shown in Figure~\ref{fig:part3_cm}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.72\linewidth]{reports/part3_topic_confusion_matrix.png}
+    \includegraphics[width=0.72\linewidth]{Images to add/part3_topic_confusion_matrix.png}
     \caption{Transformer topic classification confusion matrix.}
     \label{fig:part3_cm}
 \end{figure}
@@ -169,26 +182,27 @@ Representative heatmaps are shown in Figure~\ref{fig:attn}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.48\linewidth]{reports/part3_attention_article1_head0.png}
-    \includegraphics[width=0.48\linewidth]{reports/part3_attention_article1_head1.png}
-    \includegraphics[width=0.48\linewidth]{reports/part3_attention_article2_head0.png}
-    \includegraphics[width=0.48\linewidth]{reports/part3_attention_article2_head1.png}
-    \includegraphics[width=0.48\linewidth]{reports/part3_attention_article3_head0.png}
-    \includegraphics[width=0.48\linewidth]{reports/part3_attention_article3_head1.png}
+    \safeincludegraphics[width=0.48\linewidth]{Images to add/part3_attention_article1_head0.png}
+    \safeincludegraphics[width=0.48\linewidth]{Images to add/part3_attention_article1_head1.png}
+    \safeincludegraphics[width=0.48\linewidth]{Images to add/part3_attention_article2_head0.png}
+    \safeincludegraphics[width=0.48\linewidth]{Images to add/part3_attention_article2_head1.png}
+    \safeincludegraphics[width=0.48\linewidth]{Images to add/part3_attention_article3_head0.png}
+    \safeincludegraphics[width=0.48\linewidth]{Images to add/part3_attention_article3_head1.png}
     \caption{Final-layer attention heatmaps (heads 0 and 1) for three correctly classified articles.}
     \label{fig:attn}
 \end{figure}
 
 \section*{BiLSTM vs. Transformer Comparison}
-On the same stratified test split, the Transformer achieved 1.0000 accuracy and 1.0000 macro-F1.
-The BiLSTM baseline achieved 0.9905 accuracy and 0.9905 macro-F1.
-Therefore, the Transformer was higher by 0.0095 accuracy points in this run.
+On the same stratified test split, the Transformer achieved 0.9905 accuracy and 0.9905 macro-F1.
+The BiLSTM baseline achieved 0.9714 accuracy and 0.9716 macro-F1.
+Therefore, the Transformer was higher by 0.0190 accuracy points in this run.
 In terms of convergence, the Transformer reached peak validation accuracy at epoch 4.
-The BiLSTM reached its best validation accuracy at epoch 5, so the Transformer converged in fewer epochs.
-Average per-epoch training time was 24.45 seconds for the Transformer.
-Average per-epoch training time was 21.15 seconds for the BiLSTM, which was slightly faster in wall-clock cost per epoch.
+The BiLSTM reached its best validation accuracy at epoch 3, so the BiLSTM converged in fewer epochs.
+Average per-epoch training time was 7.38 seconds for the Transformer.
+Average per-epoch training time was 3.50 seconds for the BiLSTM, which was slightly faster in wall-clock cost per epoch.
 This runtime pattern is expected because attention layers add dense token-token interactions, while recurrent updates can be cheaper at the current sequence length and implementation settings.
 The attention heatmaps show that specific topic-bearing tokens receive stronger influence on the final-layer pathways connected to the CLS representation.
+These scores are still high because the corpus is balanced and topic cues are strong, but the rerun is non-perfect and includes concrete misclassifications.
 For datasets with only 200--300 articles, the safer default choice is BiLSTM because it is typically more data-efficient and less sensitive to optimization hyperparameters.
 The Transformer should be preferred at that scale only when strong regularization, careful learning-rate scheduling, and sufficient validation control are available.
 
