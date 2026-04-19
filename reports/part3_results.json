@@ -1,0 +1,63 @@
+{
+  "dataset": {
+    "class_distribution": {
+      "Sports": 140,
+      "Politics": 140,
+      "Economy": 140,
+      "International": 140,
+      "Health & Society": 140
+    },
+    "split_sizes": {
+      "train": 490,
+      "val": 105,
+      "test": 105
+    }
+  },
+  "transformer": {
+    "test_accuracy": 1.0,
+    "test_macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        21,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        21,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        21
+      ]
+    ],
+    "mean_epoch_time_sec": 24.452879499999955
+  },
+  "bilstm_baseline": {
+    "test_accuracy": 0.9904761904761905,
+    "test_macro_f1": 0.9904707884288145,
+    "mean_epoch_time_sec": 21.14615586666696
+  }
+}

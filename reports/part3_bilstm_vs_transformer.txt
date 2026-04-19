@@ -1,0 +1,12 @@
+The Transformer and BiLSTM were evaluated on the same 5-class split.
+The Transformer reached test accuracy 1.0000, while the BiLSTM reached 0.9905.
+The absolute accuracy difference is 0.0095 in favour of Transformer.
+Transformer validation accuracy peaked at epoch 4.
+BiLSTM validation accuracy peaked at epoch 5.
+The model with fewer epochs to peak validation accuracy appears to converge faster; in this run that was Transformer.
+Average Transformer training time per epoch was 24.45 seconds.
+Average BiLSTM training time per epoch was 21.15 seconds.
+Per-epoch runtime differs because multi-head attention performs dense token-token interactions, while recurrent models process steps sequentially and can be cheaper for short sequences.
+Attention heatmaps in the final encoder layer highlight which tokens influence the [CLS] representation, and they can show focused patterns around topic-indicative words.
+When the dataset is very small (around 200-300 articles), a BiLSTM can be more data-efficient and less prone to overfitting.
+A Transformer may still win if regularisation and learning-rate scheduling are tuned well, but it usually needs stronger supervision to stabilise.
