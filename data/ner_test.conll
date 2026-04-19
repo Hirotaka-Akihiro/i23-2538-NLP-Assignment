@@ -2,8 +2,8 @@ hearing B-MISC
 asif B-PER
 teen O
 vaccine B-MISC
-education B-MISC
-taleem B-MISC
+education I-MISC
+taleem I-MISC
 pakistan O
 covid B-MISC
 attock B-LOC
@@ -24,7 +24,7 @@ tak O
 sidra B-PER
 humaira O
 verdict B-MISC
-dengue B-MISC
+dengue I-MISC
 agar O
 team O
 un B-ORG
@@ -34,7 +34,7 @@ team O
 stadium O
 chitral B-LOC
 vaccine B-MISC
-trade B-MISC
+trade I-MISC
 ke O
 21 O
 26 O
@@ -44,7 +44,7 @@ aap O
 tournament O
 
 ahmed B-PER
-hina B-PER
+hina I-PER
 nepra O
 awam O
 lahore B-LOC
@@ -79,7 +79,7 @@ inflation B-MISC
 railways O
 worldbank B-ORG
 trade B-MISC
-budget B-MISC
+budget I-MISC
 ek O
 ke O
 ! O
@@ -87,7 +87,7 @@ market O
 : O
 tax O
 budget B-MISC
-inflation B-MISC
+inflation I-MISC
 ! O
 trade B-MISC
 fawad B-PER
@@ -98,9 +98,9 @@ saba B-PER
 pso O
 swat B-LOC
 saba B-PER
-imran B-PER
+imran I-PER
 election B-MISC
-policy B-MISC
+policy I-MISC
 minister O
 election B-MISC
 nizam B-PER
@@ -112,12 +112,12 @@ lahore B-LOC
 - O
 
 nawaz B-PER
-farhan B-PER
+farhan I-PER
 eid B-MISC
 innovation O
 coach O
 cricket B-MISC
-cricket B-MISC
+cricket I-MISC
 match O
 malaria B-MISC
 tournament O
@@ -167,7 +167,7 @@ policy B-MISC
 ! O
 
 punjab B-LOC
-gwadar B-LOC
+gwadar I-LOC
 who B-ORG
 diplomacy O
 10 O
@@ -187,8 +187,8 @@ bilateral O
 foreign O
 islamabad B-LOC
 qaumi B-ORG
-hec B-ORG
-qaumi B-ORG
+hec I-ORG
+qaumi I-ORG
 jhung O
 un B-ORG
 idara O
@@ -196,7 +196,7 @@ dengue B-MISC
 , O
 
 hamza B-PER
-asif B-PER
+asif I-PER
 policy B-MISC
 : O
 islamabad B-LOC
@@ -204,8 +204,8 @@ islamabad B-LOC
 karachi B-LOC
 score O
 sehat B-MISC
-aabadi B-MISC
-vaccine B-MISC
+aabadi I-MISC
+vaccine I-MISC
 coach O
 12 O
 player O
@@ -230,7 +230,7 @@ suparco B-ORG
 bank O
 kam O
 trade B-MISC
-budget B-MISC
+budget I-MISC
 pakistan O
 tax O
 market O
@@ -255,8 +255,8 @@ kam O
 bank O
 idara O
 budget B-MISC
-budget B-MISC
-gdp B-MISC
+budget I-MISC
+gdp I-MISC
 tax O
 bank O
 ! O
@@ -264,11 +264,11 @@ bank O
 market O
 trade B-MISC
 islamabad B-LOC
-multan B-LOC
+multan I-LOC
 , O
 
 lums B-ORG
-lums B-ORG
+lums I-ORG
 kasmir O
 karachi B-LOC
 tax O
@@ -289,7 +289,7 @@ karachi B-LOC
 . O
 
 islamabad B-LOC
-gilgit B-LOC
+gilgit I-LOC
 icc B-ORG
 border O
 islamabad B-LOC
@@ -319,22 +319,22 @@ nust B-ORG
 covid B-MISC
 maryam B-PER
 taleem B-MISC
-education B-MISC
+education I-MISC
 nizam B-PER
 4 O
 yeh O
 karachi B-LOC
 sehat B-MISC
-flood B-MISC
+flood I-MISC
 ki O
 ko O
 report O
 woh O
 aap O
 education B-MISC
-flood B-MISC
-sehat B-MISC
-taleem B-MISC
+flood I-MISC
+sehat I-MISC
+taleem I-MISC
 ki O
 flood B-MISC
 masla O
@@ -345,8 +345,8 @@ agenda O
 
 rescue1122 O
 hunza B-LOC
-karachi B-LOC
-narowal B-LOC
+karachi I-LOC
+narowal I-LOC
 masla O
 10 O
 nizam B-PER
@@ -371,7 +371,7 @@ maeeshat O
 jibran O
 mahnoor B-PER
 unicef B-ORG
-wapda B-ORG
+wapda I-ORG
 government O
 hukumat O
 minister O
@@ -390,13 +390,13 @@ mardan B-LOC
 is O
 do O
 hearing B-MISC
-inflation B-MISC
-trade B-MISC
+inflation I-MISC
+trade I-MISC
 awam O
 pakistan O
 budget B-MISC
 rizwan B-PER
-hassan B-PER
+hassan I-PER
 qaumi B-ORG
 16 O
 qaumi B-ORG
@@ -407,10 +407,10 @@ nizam B-PER
 
 sajid O
 monsoon B-MISC
-election B-MISC
+election I-MISC
 islamabad B-LOC
 flood B-MISC
-malaria B-MISC
+malaria I-MISC
 pakistan O
 har O
 agar O
@@ -437,7 +437,7 @@ tournament O
 : O
 
 shehbaz B-PER
-rabia B-PER
+rabia I-PER
 fia B-ORG
 policy B-MISC
 bohat O
@@ -448,11 +448,11 @@ parliament O
 hukumat O
 mein O
 election B-MISC
-policy B-MISC
+policy I-MISC
 adalat O
 government O
 policy B-MISC
-election B-MISC
+election I-MISC
 hukumat O
 ? O
 ptcl O
@@ -460,7 +460,7 @@ barh O
 fauj O
 fauj O
 policy B-MISC
-policy B-MISC
+policy I-MISC
 : O
 
 newsdesk O
@@ -505,23 +505,23 @@ awam O
 islamabad B-LOC
 
 talha B-PER
-usman B-PER
+usman I-PER
 suparco B-ORG
-pti B-ORG
+pti I-ORG
 har O
 24 O
 policy B-MISC
 minister O
 parliament O
 qaumi B-ORG
-statebank B-ORG
+statebank I-ORG
 karachi B-LOC
 hockey B-MISC
 teen O
 adalat O
 hukumat O
 mahnoor B-PER
-kashif B-PER
+kashif I-PER
 tajzia O
 lekin O
 fauj O
@@ -558,22 +558,22 @@ flood B-MISC
 gwadar B-LOC
 tajzia O
 vaccine B-MISC
-vaccine B-MISC
+vaccine I-MISC
 7 O
 earthquake B-MISC
-aabadi B-MISC
+aabadi I-MISC
 24 O
 report O
 sehat B-MISC
-vaccine B-MISC
+vaccine I-MISC
 nizam B-PER
 hospital O
 ? O
 
 sukkur B-LOC
-mirpur B-LOC
+mirpur I-LOC
 suparco B-ORG
-ppp B-ORG
+ppp I-ORG
 woh O
 masla O
 masla O
@@ -598,7 +598,7 @@ un B-ORG
 
 babar B-PER
 hec B-ORG
-iba B-ORG
+iba I-ORG
 government O
 parliament O
 minister O
@@ -607,7 +607,7 @@ adalat O
 report O
 fauj O
 election B-MISC
-imports B-MISC
+imports I-MISC
 fauj O
 cricket B-MISC
 awam O
@@ -620,17 +620,17 @@ barh O
 ? O
 
 hamza B-PER
-ali B-PER
+ali I-PER
 inflation B-MISC
-election B-MISC
-cricket B-MISC
+election I-MISC
+cricket I-MISC
 score O
 score O
 se O
 karachi B-LOC
-sindh B-LOC
+sindh I-LOC
 iftikhar B-PER
-ahsan B-PER
+ahsan I-PER
 match O
 player O
 player O
@@ -701,10 +701,10 @@ tajzia O
 pakistan O
 14 O
 education B-MISC
-sehat B-MISC
+sehat I-MISC
 report O
 taleem B-MISC
-education B-MISC
+education I-MISC
 hospital O
 vaccine B-MISC
 disease O
@@ -730,7 +730,7 @@ punjab B-LOC
 ki O
 islamabad B-LOC
 usman B-PER
-ahsan B-PER
+ahsan I-PER
 : O
 
 scholarship B-MISC
@@ -742,12 +742,12 @@ parliamenttv O
 vaccine B-MISC
 aap O
 vaccine B-MISC
-vaccine B-MISC
-flood B-MISC
-vaccine B-MISC
-flood B-MISC
-taleem B-MISC
-taleem B-MISC
+vaccine I-MISC
+flood I-MISC
+vaccine I-MISC
+flood I-MISC
+taleem I-MISC
+taleem I-MISC
 rizwan B-PER
 awam O
 main O
@@ -776,8 +776,8 @@ ke O
 un B-ORG
 treaty O
 un B-ORG
-lums B-ORG
-lums B-ORG
+lums I-ORG
+lums I-ORG
 barh O
 ! O
 
@@ -791,7 +791,7 @@ inflation B-MISC
 market O
 lahore B-LOC
 inflation B-MISC
-gdp B-MISC
+gdp I-MISC
 market O
 lahore B-LOC
 is O
@@ -835,14 +835,14 @@ nizam B-PER
 - O
 
 vaccine B-MISC
-inflation B-MISC
+inflation I-MISC
 sarim B-PER
 lekin O
 barh O
 ahmed B-PER
 report O
 bahawalpur B-LOC
-gilgit B-LOC
+gilgit I-LOC
 disease O
 taleem B-MISC
 hospital O
@@ -855,7 +855,7 @@ sehat B-MISC
 qaumi B-ORG
 tajzia O
 kpk B-LOC
-gujranwala B-LOC
+gujranwala I-LOC
 hospital O
 , O
 idara O
@@ -867,7 +867,7 @@ pti B-ORG
 border O
 masla O
 summit B-MISC
-summit B-MISC
+summit I-MISC
 pakistan O
 un B-ORG
 summit B-MISC
@@ -875,7 +875,7 @@ sumaira B-PER
 qaumi B-ORG
 aur O
 lahore B-LOC
-lahore B-LOC
+lahore I-LOC
 border O
 qaumi B-ORG
 . O
@@ -892,7 +892,7 @@ government O
 idara O
 government O
 inflation B-MISC
-dengue B-MISC
+dengue I-MISC
 kasur B-LOC
 election B-MISC
 islamabad B-LOC
@@ -906,7 +906,7 @@ fawad B-PER
 
 haris B-PER
 budget B-MISC
-inflation B-MISC
+inflation I-MISC
 ! O
 24 O
 18 O
@@ -929,9 +929,9 @@ match O
 - O
 
 edhi B-ORG
-pcb B-ORG
+pcb I-ORG
 chitral B-LOC
-chitral B-LOC
+chitral I-LOC
 13 O
 report O
 islamabad B-LOC
@@ -940,18 +940,18 @@ maeeshat O
 lahore B-LOC
 trade B-MISC
 yasir B-PER
-hina B-PER
+hina I-PER
 30 O
 
 mirpur B-LOC
-faisalabad B-LOC
+faisalabad I-LOC
 newsdesk O
 pmln B-ORG
 bilateral O
 awam O
 aap O
 ayesha B-PER
-usman B-PER
+usman I-PER
 , O
 barh O
 summit B-MISC
@@ -963,7 +963,7 @@ un B-ORG
 
 dera B-LOC
 worldbank B-ORG
-icc B-ORG
+icc I-ORG
 foreign O
 bilateral O
 main O
@@ -985,7 +985,7 @@ un B-ORG
 mahnoor B-PER
 election B-MISC
 pmln B-ORG
-wapda B-ORG
+wapda I-ORG
 awam O
 ko O
 10 O
@@ -1003,7 +1003,7 @@ eid B-MISC
 qaumi B-ORG
 , O
 dir B-LOC
-balochistan B-LOC
+balochistan I-LOC
 qaumi B-ORG
 ; O
 
@@ -1017,7 +1017,7 @@ player O
 match O
 karachi B-LOC
 imports B-MISC
-malaria B-MISC
+malaria I-MISC
 tournament O
 par O
 qaumi B-ORG
@@ -1071,13 +1071,13 @@ pakistan O
 bank O
 gdp B-MISC
 dera B-LOC
-dera B-LOC
-lahore B-LOC
+dera I-LOC
+lahore I-LOC
 trade B-MISC
 bank O
 quetta B-LOC
-lahore B-LOC
-islamabad B-LOC
+lahore I-LOC
+islamabad I-LOC
 ka O
 suparco B-ORG
 market O
@@ -1123,7 +1123,7 @@ cricket B-MISC
 coach O
 player O
 eid B-MISC
-hearing B-MISC
+hearing I-MISC
 stadium O
 player O
 match O
@@ -1141,8 +1141,8 @@ kpk B-LOC
 bank O
 idara O
 gdp B-MISC
-trade B-MISC
-inflation B-MISC
+trade I-MISC
+inflation I-MISC
 tax O
 punjab B-LOC
 16 O
@@ -1189,8 +1189,8 @@ har O
 11 O
 parliament O
 nizam B-PER
-samina B-PER
-sana B-PER
+samina I-PER
+sana I-PER
 report O
 ; O
 
@@ -1240,10 +1240,10 @@ humaira O
 ali B-PER
 parliamenttv O
 lahore B-LOC
-peshawar B-LOC
-skardu B-LOC
+peshawar I-LOC
+skardu I-LOC
 policy B-MISC
-policy B-MISC
+policy I-MISC
 pakistan O
 magar O
 kyunke O
@@ -1252,11 +1252,11 @@ fauj O
 ! O
 
 nadra B-ORG
-pti B-ORG
+pti I-ORG
 rawalpindi B-LOC
 budget B-MISC
 nab B-ORG
-pemra B-ORG
+pemra I-ORG
 peshawar B-LOC
 awam O
 lekin O
@@ -1270,14 +1270,14 @@ yasir B-PER
 ! O
 maeeshat O
 budget B-MISC
-trade B-MISC
+trade I-MISC
 report O
 islamabad B-LOC
 tajzia O
 masla O
 imran B-PER
-yasir B-PER
-ahmed B-PER
+yasir I-PER
+ahmed I-PER
 woh O
 ; O
 
@@ -1304,10 +1304,10 @@ radio O
 parliamenttv O
 qaumi B-ORG
 islamabad B-LOC
-bahawalpur B-LOC
-gwadar B-LOC
+bahawalpur I-LOC
+gwadar I-LOC
 nizam B-PER
-nizam B-PER
+nizam I-PER
 budget B-MISC
 mein O
 : O
@@ -1356,7 +1356,7 @@ tak O
 
 yasir B-PER
 aabadi B-MISC
-ramzan B-MISC
+ramzan I-MISC
 qaumi B-ORG
 ko O
 nizam B-PER
@@ -1385,8 +1385,8 @@ barh O
 
 naeem O
 election B-MISC
-covid B-MISC
-covid B-MISC
+covid I-MISC
+covid I-MISC
 match O
 ke O
 usman B-PER
@@ -1412,7 +1412,7 @@ do O
 , O
 
 danish B-PER
-nawaz B-PER
+nawaz I-PER
 verdict B-MISC
 karachi B-LOC
 team O
@@ -1440,7 +1440,7 @@ stadium O
 , O
 
 mirpur B-LOC
-kohat B-LOC
+kohat I-LOC
 iba B-ORG
 2 O
 un B-ORG
@@ -1465,7 +1465,7 @@ iftikhar B-PER
 maeeshat O
 lahore B-LOC
 gdp B-MISC
-hockey B-MISC
+hockey I-MISC
 awam O
 ppp B-ORG
 gilgit B-LOC
@@ -1477,21 +1477,21 @@ lahore B-LOC
 gdp B-MISC
 pmln B-ORG
 trade B-MISC
-inflation B-MISC
+inflation I-MISC
 agar O
 trade B-MISC
 imf B-ORG
 
 islamabad B-LOC
 edhi B-ORG
-iba B-ORG
-un B-ORG
+iba I-ORG
+un I-ORG
 bilateral O
 ! O
 un B-ORG
 border O
 qaumi B-ORG
-pia B-ORG
+pia I-ORG
 magar O
 foreign O
 bilateral O
@@ -1501,7 +1501,7 @@ un B-ORG
 bilateral O
 conflict O
 khadija B-PER
-maryam B-PER
+maryam I-PER
 ? O
 
 nab B-ORG
@@ -1514,17 +1514,17 @@ market O
 un B-ORG
 ! O
 noman B-PER
-imran B-PER
+imran I-PER
 mardan B-LOC
 ahmed B-PER
-hamza B-PER
-ahsan B-PER
-mahnoor B-PER
+hamza I-PER
+ahsan I-PER
+mahnoor I-PER
 market O
 inflation B-MISC
 bank O
 budget B-MISC
-trade B-MISC
+trade I-MISC
 sidra B-PER
 islamabad B-LOC
 
@@ -1537,12 +1537,12 @@ ya O
 nizam B-PER
 se O
 aabadi B-MISC
-aabadi B-MISC
+aabadi I-MISC
 kam O
 qaumi B-ORG
 aabadi B-MISC
-education B-MISC
-aabadi B-MISC
+education I-MISC
+aabadi I-MISC
 pakistan O
 . O
 aabadi B-MISC
@@ -1553,13 +1553,13 @@ gujranwala B-LOC
 22 O
 ke O
 aabadi B-MISC
-sehat B-MISC
+sehat I-MISC
 : O
 
 adnan B-PER
-hassan B-PER
+hassan I-PER
 vaccine B-MISC
-eid B-MISC
+eid I-MISC
 player O
 match O
 masla O
@@ -1591,7 +1591,7 @@ talha B-PER
 qaumi B-ORG
 tajzia O
 education B-MISC
-education B-MISC
+education I-MISC
 25 O
 disease O
 hospital O
@@ -1625,7 +1625,7 @@ imports B-MISC
 agenda O
 trade B-MISC
 shehbaz B-PER
-danish B-PER
+danish I-PER
 ziyada O
 woh O
 ogdcl B-ORG
@@ -1637,12 +1637,12 @@ suparco B-ORG
 budget B-MISC
 hangu B-LOC
 summit B-MISC
-gdp B-MISC
+gdp I-MISC
 aur O
 - O
 
 noman B-PER
-kashif B-PER
+kashif I-PER
 aabadi B-MISC
 report O
 peshawar B-LOC
@@ -1659,7 +1659,7 @@ qaumi B-ORG
 ! O
 
 talha B-PER
-kamran B-PER
+kamran I-PER
 verdict B-MISC
 coach O
 cricket B-MISC
@@ -1684,14 +1684,14 @@ tournament O
 . O
 
 mahnoor B-PER
-bilawal B-PER
+bilawal I-PER
 startup O
 player O
 cricket B-MISC
 - O
 tournament O
 trade B-MISC
-ramzan B-MISC
+ramzan I-MISC
 ; O
 awam O
 yeh O
@@ -1707,7 +1707,7 @@ tournament O
 nizam B-PER
 verdict B-MISC
 okara B-LOC
-khuzdar B-LOC
+khuzdar I-LOC
 par O
 par O
 stadium O

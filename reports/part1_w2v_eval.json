@@ -3,442 +3,621 @@
     "pakistan": [
       [
         "tajzia",
-        0.8925987482070923
-      ],
-      [
-        "idara",
-        0.8748050928115845
-      ],
-      [
-        "awam",
-        0.8721863031387329
-      ],
-      [
-        "report",
-        0.8637049794197083
-      ],
-      [
-        "nizam",
-        0.8544003367424011
-      ],
-      [
-        "qaumi",
-        0.8533902764320374
-      ],
-      [
-        "islamabad",
-        0.8514503836631775
-      ],
-      [
-        "lahore",
-        0.8509167432785034
+        0.881980299949646
       ],
       [
         "karachi",
-        0.8347256183624268
+        0.8756868839263916
+      ],
+      [
+        "qaumi",
+        0.8755631446838379
+      ],
+      [
+        "idara",
+        0.8697036504745483
+      ],
+      [
+        "report",
+        0.8595660924911499
+      ],
+      [
+        "nizam",
+        0.8379675149917603
+      ],
+      [
+        "awam",
+        0.834755003452301
+      ],
+      [
+        "masla",
+        0.8284470438957214
+      ],
+      [
+        "lahore",
+        0.8224527835845947
       ],
       [
         "barh",
-        0.8201165199279785
+        0.8222291469573975
       ]
     ],
     "hukumat": [
       [
-        "policy",
-        0.9419521689414978
-      ],
-      [
-        "election",
-        0.9322912096977234
-      ],
-      [
         "parliament",
-        0.9288075566291809
+        0.9421110153198242
       ],
       [
         "fauj",
-        0.9231520295143127
+        0.9405303001403809
       ],
       [
         "minister",
-        0.8274899125099182
+        0.934760570526123
+      ],
+      [
+        "policy",
+        0.9342467188835144
       ],
       [
         "government",
-        0.7854512333869934
+        0.9185433983802795
+      ],
+      [
+        "election",
+        0.9110701084136963
       ],
       [
         "adalat",
-        0.7444503307342529
-      ],
-      [
-        "qaumi",
-        0.6767600774765015
+        0.8026817440986633
       ],
       [
         "barh",
-        0.6215212941169739
+        0.46437329053878784
       ],
       [
-        "lahore",
-        0.619774341583252
+        "idara",
+        0.41587916016578674
+      ],
+      [
+        "qaumi",
+        0.4022677540779114
       ]
     ],
     "adalat": [
       [
-        "government",
-        0.8906896114349365
-      ],
-      [
-        "minister",
-        0.8718357086181641
-      ],
-      [
-        "fauj",
-        0.8357152938842773
+        "hukumat",
+        0.8026817440986633
       ],
       [
         "parliament",
-        0.828610360622406
+        0.7947809100151062
+      ],
+      [
+        "fauj",
+        0.772757351398468
       ],
       [
         "policy",
-        0.8057104349136353
+        0.7631936073303223
       ],
       [
-        "hukumat",
-        0.7444503307342529
+        "minister",
+        0.7540107369422913
+      ],
+      [
+        "government",
+        0.7442108988761902
       ],
       [
         "election",
-        0.7271674275398254
+        0.6599336266517639
       ],
       [
-        "mein",
-        0.31914371252059937
+        "teen",
+        0.40927958488464355
       ],
       [
-        "har",
-        0.283020943403244
+        "agar",
+        0.2992607355117798
       ],
       [
-        "qaumi",
-        0.20085570216178894
+        "abhi",
+        0.25504302978515625
       ]
     ],
     "maeeshat": [
       [
         "budget",
-        0.951188325881958
-      ],
-      [
-        "gdp",
-        0.9351193904876709
-      ],
-      [
-        "inflation",
-        0.9274091720581055
-      ],
-      [
-        "tax",
-        0.9116227030754089
+        0.9215207695960999
       ],
       [
         "trade",
-        0.9093305468559265
+        0.9187594652175903
       ],
       [
-        "bank",
-        0.9057136178016663
+        "inflation",
+        0.9033656716346741
+      ],
+      [
+        "tax",
+        0.9024967551231384
       ],
       [
         "market",
-        0.8769223690032959
+        0.8995949029922485
+      ],
+      [
+        "gdp",
+        0.875963032245636
+      ],
+      [
+        "bank",
+        0.8676671981811523
       ],
       [
         "nizam",
-        0.6765478253364563
+        0.378167986869812
       ],
       [
         "karachi",
-        0.6625030636787415
+        0.3515150249004364
       ],
       [
-        "qaumi",
-        0.6508387923240662
+        "barh",
+        0.34944233298301697
       ]
     ],
     "fauj": [
       [
         "policy",
-        0.9444432854652405
-      ],
-      [
-        "parliament",
-        0.927312970161438
+        0.9446321129798889
       ],
       [
         "hukumat",
-        0.9231520295143127
-      ],
-      [
-        "election",
-        0.9023206830024719
-      ],
-      [
-        "minister",
-        0.8863963484764099
+        0.9405303001403809
       ],
       [
         "government",
-        0.8699899315834045
+        0.9400967359542847
+      ],
+      [
+        "parliament",
+        0.9398903846740723
+      ],
+      [
+        "minister",
+        0.926281213760376
+      ],
+      [
+        "election",
+        0.9250123500823975
       ],
       [
         "adalat",
-        0.8357152938842773
-      ],
-      [
-        "qaumi",
-        0.5304198265075684
-      ],
-      [
-        "lahore",
-        0.4644123613834381
+        0.772757351398468
       ],
       [
         "barh",
-        0.45317530632019043
+        0.5108931660652161
+      ],
+      [
+        "qaumi",
+        0.46517032384872437
+      ],
+      [
+        "idara",
+        0.4587665796279907
       ]
     ],
     "sehat": [
       [
-        "flood",
-        0.947965681552887
-      ],
-      [
-        "aabadi",
-        0.9359124302864075
-      ],
-      [
-        "education",
-        0.9355120658874512
-      ],
-      [
-        "disease",
-        0.9340512156486511
+        "vaccine",
+        0.942882776260376
       ],
       [
         "hospital",
-        0.9319444298744202
+        0.9255014061927795
       ],
       [
-        "vaccine",
-        0.9251880645751953
+        "flood",
+        0.904495120048523
       ],
       [
         "taleem",
-        0.8652108311653137
+        0.8994762301445007
       ],
       [
-        "islamabad",
-        0.7898281216621399
+        "education",
+        0.8944103717803955
+      ],
+      [
+        "aabadi",
+        0.8621419668197632
       ],
       [
         "tajzia",
-        0.7737576961517334
+        0.8398114442825317
       ],
       [
-        "nizam",
-        0.7647205591201782
+        "karachi",
+        0.8263708353042603
+      ],
+      [
+        "disease",
+        0.8236393332481384
+      ],
+      [
+        "awam",
+        0.8212764859199524
       ]
     ],
     "taleem": [
       [
-        "disease",
-        0.9236904978752136
-      ],
-      [
         "education",
-        0.9164271354675293
+        0.9191625714302063
       ],
       [
         "flood",
-        0.9076139330863953
-      ],
-      [
-        "hospital",
-        0.9044582843780518
-      ],
-      [
-        "vaccine",
-        0.8889052867889404
-      ],
-      [
-        "aabadi",
-        0.8811213374137878
+        0.8995369076728821
       ],
       [
         "sehat",
-        0.8652108311653137
+        0.8994762301445007
       ],
       [
-        "nizam",
-        0.5105418562889099
+        "aabadi",
+        0.8970807194709778
       ],
       [
-        "islamabad",
-        0.49741262197494507
+        "hospital",
+        0.8968098759651184
+      ],
+      [
+        "vaccine",
+        0.8872774243354797
+      ],
+      [
+        "disease",
+        0.8490802049636841
+      ],
+      [
+        "awam",
+        0.6994208693504333
       ],
       [
         "tajzia",
-        0.4972706735134125
+        0.6864969730377197
+      ],
+      [
+        "nizam",
+        0.670629620552063
       ]
     ],
     "aabadi": [
       [
-        "flood",
-        0.9364640116691589
-      ],
-      [
-        "sehat",
-        0.9359124302864075
-      ],
-      [
-        "education",
-        0.932820737361908
-      ],
-      [
-        "disease",
-        0.9258719086647034
+        "taleem",
+        0.8970807194709778
       ],
       [
         "hospital",
-        0.9197092652320862
+        0.8894689083099365
+      ],
+      [
+        "flood",
+        0.8885340690612793
+      ],
+      [
+        "education",
+        0.8835160732269287
+      ],
+      [
+        "disease",
+        0.8719600439071655
+      ],
+      [
+        "sehat",
+        0.8621419668197632
       ],
       [
         "vaccine",
-        0.8996401429176331
-      ],
-      [
-        "taleem",
-        0.8811213374137878
+        0.8332154154777527
       ],
       [
         "islamabad",
-        0.7282961010932922
+        0.6534274816513062
+      ],
+      [
+        "qaumi",
+        0.6427510380744934
       ],
       [
         "tajzia",
-        0.7073564529418945
-      ],
-      [
-        "nizam",
-        0.6995218396186829
+        0.6405796408653259
       ]
     ]
   },
   "analogies": {
     "pakistan:hukumat::adalat:?": [
       [
-        "government",
-        0.923460841178894
-      ],
-      [
-        "minister",
-        0.9076318144798279
+        "parliament",
+        0.7939369082450867
       ],
       [
         "fauj",
-        0.8733507990837097
+        0.7790571451187134
+      ],
+      [
+        "policy",
+        0.7694833874702454
       ]
     ],
     "sehat:hospital::taleem:?": [
       [
-        "disease",
-        0.7851526737213135
+        "aabadi",
+        0.8166612982749939
       ],
       [
         "education",
-        0.7576097249984741
+        0.8158183097839355
       ],
       [
-        "vaccine",
-        0.745372474193573
+        "flood",
+        0.785847544670105
       ]
     ],
     "team:match::player:?": [
       [
-        "score",
-        0.9228192567825317
+        "tournament",
+        0.9144468307495117
       ],
       [
         "stadium",
-        0.9192101359367371
+        0.9105696082115173
       ],
       [
-        "tournament",
-        0.9044904112815857
+        "cricket",
+        0.9047600626945496
       ]
     ],
     "bank:maeeshat::budget:?": [
       [
-        "gdp",
-        0.8246836066246033
-      ],
-      [
-        "inflation",
-        0.803902804851532
+        "market",
+        0.6053717136383057
       ],
       [
         "trade",
-        0.7917288541793823
+        0.6018511056900024
+      ],
+      [
+        "tax",
+        0.5576663017272949
       ]
     ],
     "lahore:punjab::karachi:?": [
       [
-        "nawaz",
-        0.9816810488700867
+        "hassan",
+        0.9802802205085754
       ],
       [
-        "larkana",
-        0.9814522862434387
+        "bilal",
+        0.9801798462867737
       ],
       [
-        "mirpur",
-        0.9811930060386658
+        "gwadar",
+        0.9791484475135803
       ]
     ],
     "wazir:hukumat::player:?": [],
     "vaccine:hospital::disease:?": [
       [
         "aabadi",
-        0.8780027031898499
+        0.8190865516662598
       ],
       [
-        "sehat",
-        0.8751530051231384
+        "flood",
+        0.7861268520355225
       ],
       [
         "education",
-        0.872699499130249
+        0.7846037745475769
       ]
     ],
     "fauj:hukumat::adalat:?": [
       [
         "parliament",
-        0.8802675008773804
-      ],
-      [
-        "policy",
-        0.8607310652732849
+        0.6982244253158569
       ],
       [
         "minister",
-        0.8396665453910828
+        0.6673192381858826
+      ],
+      [
+        "policy",
+        0.6552267074584961
       ]
     ],
     "cricket:sports::economy:?": [],
     "inflation:economy::trade:?": []
+  },
+  "analogy_top3_with_correctness": {
+    "pakistan:hukumat::adalat:?": [
+      {
+        "candidate": "parliament",
+        "score": 0.7939369082450867,
+        "is_correct": false
+      },
+      {
+        "candidate": "fauj",
+        "score": 0.7790571451187134,
+        "is_correct": false
+      },
+      {
+        "candidate": "policy",
+        "score": 0.7694833874702454,
+        "is_correct": false
+      }
+    ],
+    "sehat:hospital::taleem:?": [
+      {
+        "candidate": "aabadi",
+        "score": 0.8166612982749939,
+        "is_correct": false
+      },
+      {
+        "candidate": "education",
+        "score": 0.8158183097839355,
+        "is_correct": true
+      },
+      {
+        "candidate": "flood",
+        "score": 0.785847544670105,
+        "is_correct": false
+      }
+    ],
+    "team:match::player:?": [
+      {
+        "candidate": "tournament",
+        "score": 0.9144468307495117,
+        "is_correct": false
+      },
+      {
+        "candidate": "stadium",
+        "score": 0.9105696082115173,
+        "is_correct": false
+      },
+      {
+        "candidate": "cricket",
+        "score": 0.9047600626945496,
+        "is_correct": false
+      }
+    ],
+    "bank:maeeshat::budget:?": [
+      {
+        "candidate": "market",
+        "score": 0.6053717136383057,
+        "is_correct": false
+      },
+      {
+        "candidate": "trade",
+        "score": 0.6018511056900024,
+        "is_correct": true
+      },
+      {
+        "candidate": "tax",
+        "score": 0.5576663017272949,
+        "is_correct": true
+      }
+    ],
+    "lahore:punjab::karachi:?": [
+      {
+        "candidate": "hassan",
+        "score": 0.9802802205085754,
+        "is_correct": false
+      },
+      {
+        "candidate": "bilal",
+        "score": 0.9801798462867737,
+        "is_correct": false
+      },
+      {
+        "candidate": "gwadar",
+        "score": 0.9791484475135803,
+        "is_correct": false
+      }
+    ],
+    "wazir:hukumat::player:?": [],
+    "vaccine:hospital::disease:?": [
+      {
+        "candidate": "aabadi",
+        "score": 0.8190865516662598,
+        "is_correct": false
+      },
+      {
+        "candidate": "flood",
+        "score": 0.7861268520355225,
+        "is_correct": false
+      },
+      {
+        "candidate": "education",
+        "score": 0.7846037745475769,
+        "is_correct": false
+      }
+    ],
+    "fauj:hukumat::adalat:?": [
+      {
+        "candidate": "parliament",
+        "score": 0.6982244253158569,
+        "is_correct": false
+      },
+      {
+        "candidate": "minister",
+        "score": 0.6673192381858826,
+        "is_correct": false
+      },
+      {
+        "candidate": "policy",
+        "score": 0.6552267074584961,
+        "is_correct": false
+      }
+    ],
+    "cricket:sports::economy:?": [],
+    "inflation:economy::trade:?": []
+  },
+  "analogy_expected_answers": {
+    "pakistan:hukumat::adalat:?": [
+      "judge",
+      "qanoon",
+      "verdict"
+    ],
+    "sehat:hospital::taleem:?": [
+      "education",
+      "school",
+      "taleem",
+      "university"
+    ],
+    "team:match::player:?": [
+      "captain",
+      "coach",
+      "team"
+    ],
+    "bank:maeeshat::budget:?": [
+      "budget",
+      "inflation",
+      "tax",
+      "trade"
+    ],
+    "lahore:punjab::karachi:?": [
+      "sindh"
+    ],
+    "wazir:hukumat::player:?": [
+      "captain",
+      "coach",
+      "team"
+    ],
+    "vaccine:hospital::disease:?": [
+      "covid",
+      "dengue",
+      "disease",
+      "malaria"
+    ],
+    "fauj:hukumat::adalat:?": [
+      "judge",
+      "qanoon",
+      "verdict"
+    ],
+    "cricket:sports::economy:?": [
+      "budget",
+      "inflation",
+      "maeeshat",
+      "trade"
+    ],
+    "inflation:economy::trade:?": [
+      "budget",
+      "exports",
+      "imports",
+      "tax"
+    ]
   },
   "semantic_assessment": "The learned vectors show local semantic grouping for frequent words, but quality depends strongly on corpus size and noise. Nearest-neighbour coherence is typically stronger in cleaned-corpus training than raw-corpus training."
 }

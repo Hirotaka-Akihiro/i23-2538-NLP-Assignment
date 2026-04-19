@@ -105,8 +105,8 @@ Training curves for POS and NER are shown in Figure~\ref{fig:part2_curves}.
 \toprule
 Mode & Accuracy & Macro-F1 \\
 \midrule
-Frozen embeddings & 0.6013 & 0.0848 \\
-Fine-tuned embeddings & 0.9327 & 0.5207 \\
+Frozen embeddings & 0.6031 & 0.0793 \\
+Fine-tuned embeddings & 0.9459 & 0.6161 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -127,16 +127,16 @@ NER performance (conlleval-style entity metrics) is listed in Table~\ref{tab:ner
 \toprule
 Entity Type & Precision & Recall & F1 \\
 \midrule
-PER & 0.7303 & 0.4924 & 0.5882 \\
-LOC & 0.9925 & 0.9779 & 0.9852 \\
-ORG & 0.6149 & 0.8168 & 0.7016 \\
-MISC & 0.9880 & 0.9960 & 0.9920 \\
-Overall & 0.8532 & 0.8532 & 0.8532 \\
+PER & 1.0000 & 0.9709 & 0.9852 \\
+LOC & 1.0000 & 1.0000 & 1.0000 \\
+ORG & 1.0000 & 1.0000 & 1.0000 \\
+MISC & 1.0000 & 1.0000 & 1.0000 \\
+Overall & 1.0000 & 0.9942 & 0.9971 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-CRF and no-CRF overall F1 differed in this run (0.8532 with CRF vs. 0.8022 without CRF).
+CRF and no-CRF overall F1 differed in this run (0.9971 with CRF vs. 0.9980 without CRF).
 Ablation experiments A1--A4 were completed; the summary is provided in Table~\ref{tab:ablations}.
 
 \begin{table}[H]
@@ -147,10 +147,10 @@ Ablation experiments A1--A4 were completed; the summary is provided in Table~\re
 \toprule
 Ablation & POS Macro-F1 & NER Overall F1 \\
 \midrule
-A1 (Unidirectional LSTM) & 0.0684 & 0.0000 \\
-A2 (No dropout) & 0.1746 & 0.4436 \\
-A3 (Random embeddings) & 0.1833 & 0.4112 \\
-A4 (Softmax instead of CRF) & -- & 0.3438 \\
+A1 (Unidirectional LSTM) & 0.0688 & 0.0000 \\
+A2 (No dropout) & 0.1857 & 0.2517 \\
+A3 (Random embeddings) & 0.1726 & 0.2399 \\
+A4 (Softmax instead of CRF) & -- & 0.2414 \\
 \bottomrule
 \end{tabular}
 \end{table}
