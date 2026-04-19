@@ -1,0 +1,118 @@
+{
+  "scores": {
+    "part1_out_of_25": 25.0,
+    "part2_out_of_25": 25.0,
+    "part3_out_of_20": 20.0,
+    "github_out_of_5": 1.0,
+    "total_out_of_75": 71.0
+  },
+  "details": {
+    "part1": {
+      "term_doc_matrix": {
+        "marks": 2.0,
+        "shape": [
+          700,
+          54
+        ]
+      },
+      "tfidf_weighting": {
+        "marks": 2.0
+      },
+      "ppmi": {
+        "marks": 3.0
+      },
+      "tsne_neighbors": {
+        "marks": 2.0
+      },
+      "vocab_noise_pairs": {
+        "marks": 3.0
+      },
+      "skipgram_bce": {
+        "marks": 3.0
+      },
+      "training_curve_embeddings": {
+        "marks": 2.0
+      },
+      "nn_analogy": {
+        "marks": 4.0,
+        "nn_count": 8,
+        "analogy_count": 10
+      },
+      "four_condition_mrr": {
+        "marks": 4.0
+      }
+    },
+    "part2": {
+      "annotation": {
+        "marks": 5.0,
+        "selected_sentences": 500
+      },
+      "embedding_modes": {
+        "marks": 2.0
+      },
+      "bilstm_dropout": {
+        "marks": 3.0
+      },
+      "crf_viterbi": {
+        "marks": 2.0
+      },
+      "variable_length": {
+        "marks": 1.0
+      },
+      "pos_eval": {
+        "marks": 4.0
+      },
+      "ner_eval": {
+        "marks": 4.0
+      },
+      "ablations": {
+        "marks": 2.0
+      },
+      "curves_early_stopping": {
+        "marks": 2.0
+      },
+      "model_files": {
+        "present": true
+      }
+    },
+    "part3": {
+      "dataset": {
+        "marks": 2.0
+      },
+      "scaled_attention": {
+        "marks": 1.0
+      },
+      "multi_head": {
+        "marks": 2.0
+      },
+      "ffn": {
+        "marks": 1.0
+      },
+      "positional_encoding": {
+        "marks": 1.0
+      },
+      "pre_ln_stack": {
+        "marks": 2.0
+      },
+      "training_setup": {
+        "marks": 3.0
+      },
+      "metrics": {
+        "marks": 2.0
+      },
+      "heatmaps": {
+        "marks": 2.0,
+        "count": 6
+      },
+      "written_comparison": {
+        "marks": 4.0,
+        "sentences": 17
+      },
+      "model_file_present": true
+    },
+    "github": {
+      "note": "GitHub repository status and commit history are not verifiable in this temporary local grader.",
+      "readme_present_local": true
+    }
+  }
+}
