@@ -1,0 +1,363 @@
+{
+  "selection": {
+    "total_selected_sentences": 500,
+    "topic_distribution": {
+      "Economy": 118,
+      "Health & Society": 65,
+      "Sports": 123,
+      "Politics": 124,
+      "International": 70
+    },
+    "split_sizes": {
+      "train": 351,
+      "val": 75,
+      "test": 74
+    }
+  },
+  "label_distribution": {
+    "pos": {
+      "NOUN": 6546,
+      "PUNC": 971,
+      "ADJ": 1346,
+      "ADV": 205,
+      "POST": 357,
+      "NUM": 508,
+      "PRON": 375,
+      "DET": 201,
+      "CONJ": 226,
+      "VERB": 103,
+      "UNK": 17
+    },
+    "ner": {
+      "B-ORG": 820,
+      "B-LOC": 986,
+      "O": 6510,
+      "B-MISC": 1686,
+      "B-PER": 853
+    }
+  },
+  "pos": {
+    "frozen": {
+      "accuracy": 0.603126879134095,
+      "macro_f1": 0.07928956207460079
+    },
+    "fine_tuned": {
+      "accuracy": 0.8653036680697535,
+      "macro_f1": 0.3471537124615746
+    },
+    "confusion_matrix": [
+      [
+        1003,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        207,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        57,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        22,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        32,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        49,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        85,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        141,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "most_confused_pairs": [
+      {
+        "gold": "PRON",
+        "pred": "PUNC",
+        "examples": [
+          "sidra humaira verdict dengue agar team un match score team stadium chitral vaccine trade ke 21 26 score team aap tournament",
+          "ahmed hina nepra awam lahore : islamabad adalat hukumat barh kyunke lahore awam ki fauj parliament hukumat policy radio is government adalat masla ."
+        ]
+      },
+      {
+        "gold": "POST",
+        "pred": "PUNC",
+        "examples": [
+          "hearing asif teen vaccine education taleem pakistan covid attock 22 qaumi nizam 14 kam aabadi karachi aabadi har humaira fatima tak :",
+          "sidra humaira verdict dengue agar team un match score team stadium chitral vaccine trade ke 21 26 score team aap tournament"
+        ]
+      },
+      {
+        "gold": "ADV",
+        "pred": "PUNC",
+        "examples": [
+          "hearing asif teen vaccine education taleem pakistan covid attock 22 qaumi nizam 14 kam aabadi karachi aabadi har humaira fatima tak :",
+          "nawaz farhan eid innovation coach cricket cricket match malaria tournament tournament pakistan stadium barh . maryam saima match - bohat match tournament waqar cricket score -"
+        ]
+      }
+    ]
+  },
+  "ner": {
+    "with_crf": {
+      "PER": {
+        "precision": 0.7303370786516772,
+        "recall": 0.4924242424242387,
+        "f1": 0.5882352941171607
+      },
+      "LOC": {
+        "precision": 0.9925373134328285,
+        "recall": 0.9779411764705811,
+        "f1": 0.9851851851846779
+      },
+      "ORG": {
+        "precision": 0.6149425287356287,
+        "recall": 0.8167938931297648,
+        "f1": 0.7016393442618004
+      },
+      "MISC": {
+        "precision": 0.9879999999999961,
+        "recall": 0.9959677419354799,
+        "f1": 0.9919678714854397
+      },
+      "overall": {
+        "precision": 0.8531684698608951,
+        "recall": 0.8531684698608951,
+        "f1": 0.8531684698603951
+      }
+    },
+    "without_crf": {
+      "PER": {
+        "precision": 0.5374449339207025,
+        "recall": 0.9242424242424173,
+        "f1": 0.6796657381610911
+      },
+      "LOC": {
+        "precision": 0.9999999999999926,
+        "recall": 0.9852941176470517,
+        "f1": 0.9925925925920853
+      },
+      "ORG": {
+        "precision": 0.7142857142856888,
+        "recall": 0.15267175572518968,
+        "f1": 0.25157232704373184
+      },
+      "MISC": {
+        "precision": 0.9418604651162753,
+        "recall": 0.9798387096774154,
+        "f1": 0.9604743082998916
+      },
+      "overall": {
+        "precision": 0.8021638330757329,
+        "recall": 0.8021638330757329,
+        "f1": 0.802163833075233
+      }
+    },
+    "error_analysis": {
+      "false_positives": [
+        {
+          "type": "ORG",
+          "text": "nizam",
+          "sentence": "hearing asif teen vaccine education taleem pakistan covid attock 22 qaumi nizam 14 kam aabadi karachi aabadi har humaira fatima tak :",
+          "reason": "Predicted as entity but absent in rule-based reference annotation."
+        },
+        {
+          "type": "ORG",
+          "text": "fatima",
+          "sentence": "hearing asif teen vaccine education taleem pakistan covid attock 22 qaumi nizam 14 kam aabadi karachi aabadi har humaira fatima tak :",
+          "reason": "Predicted as entity but absent in rule-based reference annotation."
+        },
+        {
+          "type": "PER",
+          "text": "qaumi",
+          "sentence": "hearing asif teen vaccine education taleem pakistan covid attock 22 qaumi nizam 14 kam aabadi karachi aabadi har humaira fatima tak :",
+          "reason": "Predicted as entity but absent in rule-based reference annotation."
+        },
+        {
+          "type": "ORG",
+          "text": "hina",
+          "sentence": "ahmed hina nepra awam lahore : islamabad adalat hukumat barh kyunke lahore awam ki fauj parliament hukumat policy radio is government adalat masla .",
+          "reason": "Predicted as entity but absent in rule-based reference annotation."
+        },
+        {
+          "type": "ORG",
+          "text": "sadia",
+          "sentence": "imf lahore - karachi sadia qaumi se inflation railways worldbank trade budget ek ke ! market : tax budget inflation ! trade fawad - ,",
+          "reason": "Predicted as entity but absent in rule-based reference annotation."
+        }
+      ],
+      "false_negatives": [
+        {
+          "type": "PER",
+          "text": "nizam",
+          "sentence": "hearing asif teen vaccine education taleem pakistan covid attock 22 qaumi nizam 14 kam aabadi karachi aabadi har humaira fatima tak :",
+          "reason": "Entity present in reference annotation but missed by model."
+        },
+        {
+          "type": "PER",
+          "text": "fatima",
+          "sentence": "hearing asif teen vaccine education taleem pakistan covid attock 22 qaumi nizam 14 kam aabadi karachi aabadi har humaira fatima tak :",
+          "reason": "Entity present in reference annotation but missed by model."
+        },
+        {
+          "type": "ORG",
+          "text": "qaumi",
+          "sentence": "hearing asif teen vaccine education taleem pakistan covid attock 22 qaumi nizam 14 kam aabadi karachi aabadi har humaira fatima tak :",
+          "reason": "Entity present in reference annotation but missed by model."
+        },
+        {
+          "type": "PER",
+          "text": "hina",
+          "sentence": "ahmed hina nepra awam lahore : islamabad adalat hukumat barh kyunke lahore awam ki fauj parliament hukumat policy radio is government adalat masla .",
+          "reason": "Entity present in reference annotation but missed by model."
+        },
+        {
+          "type": "ORG",
+          "text": "worldbank",
+          "sentence": "imf lahore - karachi sadia qaumi se inflation railways worldbank trade budget ek ke ! market : tax budget inflation ! trade fawad - ,",
+          "reason": "Entity present in reference annotation but missed by model."
+        }
+      ]
+    }
+  },
+  "ablations": {
+    "A1": {
+      "description": "Unidirectional LSTM",
+      "pos_macro_f1": 0.06840346450248926,
+      "ner_overall_f1": 0.0
+    },
+    "A2": {
+      "description": "No dropout",
+      "pos_macro_f1": 0.17462677973094484,
+      "ner_overall_f1": 0.44358578052500164
+    },
+    "A3": {
+      "description": "Random embeddings",
+      "pos_macro_f1": 0.1832502810390154,
+      "ner_overall_f1": 0.41117145073650474
+    },
+    "A4": {
+      "description": "Softmax instead of CRF",
+      "ner_overall_f1": 0.34377646062609163
+    }
+  }
+}
